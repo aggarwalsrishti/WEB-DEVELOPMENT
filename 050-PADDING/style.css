@@ -1,0 +1,15 @@
+#p1{
+    border: 2px solid purple;
+}
+#p2{
+    border: 2px solid red;
+    padding: 20px;
+}
+#p3{
+    border: 2px solid red;
+    padding: 12px 50px;
+}
+#p4{
+    border: 2px solid red;
+    padding: 15px 30px 25px 50px;
+}

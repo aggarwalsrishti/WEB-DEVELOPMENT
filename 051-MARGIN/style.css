@@ -1,0 +1,15 @@
+#p1{
+    border: 2px solid red;
+}
+#p2{
+    border: 2px solid red;
+    margin: 50px;
+}
+#p3{           /*here distance between p2 and p3 is 50px since btw 20 and 50 px the 50px is greater.*/
+    border: 2px solid red;
+    margin: 20px 50px;
+}
+#p4{
+    border: 2px solid red;
+    margin: 15px 30px 25px 50px;
+}
