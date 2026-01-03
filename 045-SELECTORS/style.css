@@ -1,0 +1,21 @@
+/*UNIVERSAL SELECTOR*/
+*{
+    color:bisque;
+    background-color: rgb(25, 111, 111);
+}
+/*Element Selector*/
+h1{
+    text-decoration: underline ;
+}
+/*ID SELECTOR*/
+#abc{
+    color:chocolate;
+}
+/*CLASS SELECTOR*/
+.xyz{
+    text-align: center;
+}
+/*GROUP SELECTOR*/
+h1, p{
+    background-color:crimson;
+}

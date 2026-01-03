@@ -1,0 +1,6 @@
+/*selector {
+    background: [background-color] [background-attachment] [background-image] [background-repeat] [background-position];
+}*/
+body{
+    background: purple fixed url('image.png') no-repeat right top ;
+}

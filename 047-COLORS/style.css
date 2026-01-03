@@ -1,0 +1,58 @@
+body {
+  background-color: aqua;
+}
+h1 {
+  /*RGB*/
+  background-color: rgb(0, 0, 0);
+  /* red:0, green:0, blue:0 */
+  /*HEXADECIMAL NOTATION*/
+  color: #ff0000;
+  /* Pure Red*/
+}
+h2 {
+  /*RGB*/
+  background-color: rgb(255, 255, 255);
+  /* red:255, green:255, blue:255 */
+  /*HEXADECIMAL NOTATION*/
+  color: #00ff00;
+  /*Pure Green*/
+}
+h3 {
+  /*RGB*/
+  background-color: rgb(30, 150, 220);
+  /* red:30, green:150, blue:220 */
+  /*HEXADECIMAL NOTATION*/
+  color: #0000ff;
+  /*Pure Blue*/
+}
+h4 {
+  /*RGBA*/
+  background-color: rgba(255, 255, 255, 0.6);
+  /* red:255, green:255, blue:255, Alpha: 0.6 = 60% */
+  /*HEXADECIMAL NOTATION*/
+  color: #000000;
+  /*Pure Black*/
+}
+h5 {
+/*RGBA*/
+  background-color: rgba(0, 0, 0, 0.8);
+  /* red:0, green:0, blue:0, Alpha: 0.8 = 80% */
+  /*HEXADECIMAL NOTATION*/
+  color: #b700ff;
+  /*Custom Color*/
+}
+h6 {
+  /*RGBA*/
+  background-color: rgba(30, 150, 220, 0.6);
+  /* red:30, green:150, blue:200, alpha:60% */
+}
+p {
+  /*HSL*/
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(235, 100%, 50%);
+}
+code{
+    /*  HSLA*/
+    background-color: hsla(0, 0%, 0%, 0.4);
+    color: hsla(235,100%,50%,0.7);
+}
