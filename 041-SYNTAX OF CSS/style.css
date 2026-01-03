@@ -1,0 +1,10 @@
+h2{
+    color: blue;
+    background-color: yellow;
+}
+button{
+    color: red;
+    background-color: white;
+    border: 1;
+    border-radius: 5px;
+}
