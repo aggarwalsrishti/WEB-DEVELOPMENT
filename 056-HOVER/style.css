@@ -1,0 +1,12 @@
+#p1{
+    color: yellow;
+}
+#p1:hover{
+    color:red;
+}
+#p2{
+    border: 2px solid red;
+}
+#p2:hover{
+    border: 5px solid purple;
+}
