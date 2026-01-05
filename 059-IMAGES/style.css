@@ -1,0 +1,41 @@
+.i1{
+    width: 600px;
+    height: auto;
+    border-radius: 25px;
+}
+.i2{
+    width: fit-content(10px);
+}
+.i3{
+    width:min-content;
+}
+.i4{
+    opacity: 0.5;
+}
+.i5{
+    filter: grayscale(100%);
+}
+.i6{
+    filter:blur(5px)
+}
+.i7{
+    filter: brightness(180%);
+}
+.i8{
+    filter: contrast(20%);
+}
+.i9{
+    filter: invert(20%);
+}
+.i10{
+    filter: saturate(10%);
+}
+.i11{
+    filter: saturate(300%);
+}
+.i12{
+    filter: hue-rotate(90deg);
+}
+.i13{
+    filter: hue-rotate(270deg);
+}
