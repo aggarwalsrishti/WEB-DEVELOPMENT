@@ -1,0 +1,74 @@
+h1{
+    background-color: yellow;
+}
+#p1{
+    text-decoration: overline;
+}
+#p2{
+    text-decoration: underline;
+}
+#p3{
+    text-decoration: line-through;
+}
+#p4{
+    text-decoration: none;
+}
+#p5{
+    text-decoration: overline underline;
+}
+#p6{
+    text-align: left;
+}
+#p7{
+    text-align: center;
+}
+#p8{
+    text-align: right;
+}
+#p9{
+    text-align: justify;
+}
+#p10{
+    text-align: end;
+}
+#p11{
+    text-transform: uppercase;
+}
+#p12{
+    text-transform: lowercase;
+}
+#p13{
+    text-transform: capitalize;
+}
+#p14{
+    text-transform: none;
+}
+#p15{
+    letter-spacing: 5px;
+}
+#p16{
+    letter-spacing: 2em;
+}
+#p17{
+    letter-spacing: 2rem;
+}
+#p18{
+    letter-spacing: 50%;
+}
+#p19{
+    line-height: 3.5;
+}
+#p20{
+    line-height: 6.0;
+}
+#p21{
+    text-shadow: 2px 3px 4px red;
+}
+#p22{
+    text-shadow: 2px 3px 4px red;
+}
+#p23{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Caveat:wght@400..700&family=Limelight&display=swap');
+h1{
+    background-color: yellow;
+}
+#p1{
+    font-size: small;
+}
+#p2{
+    font-size: medium;
+}
+#p3{
+    font-size: large;
+}
+#p4{
+    font-size: larger;
+}
+#p5{
+    font-size: 20px;
+}
+#p6{
+    font-size: 2em;
+}
+#p7{
+    font-size: 2rem;
+}
+#p8{
+    font-size: 50%;
+}
+#p9{
+    font-style: italic;
+}
+#p10{
+    font-style: normal;
+}
+#p11{
+    font-style: oblique;
+}
+#p12{
+    font-variant: normal;
+}
+#p13{
+    font-variant: small-caps;
+}
+#p14{
+    font-weight: 100;
+}
+#p15{
+    font-weight: 200;
+}
+#p16{
+    font-weight: 300;
+}
+#p17{
+    font-weight: 400;
+}
+#p18{
+    font-weight: 500;
+}
+#p19{
+    font-weight: 600;
+}
+#p20{
+    font-weight: 700;
+}
+#p21{
+    font-weight: 800;
+}
+#p22{
+    font-weight: 900;
+}
+#p23{
+    font-weight: lighter;
+}
+#p24{
+    font-weight: bold;
+}
+#p25{
+    font-weight: bolder;
+}
+#p26{
+    font-family: 'Courier New', Courier, monospace;
+}
+#p27{
+    font-family: 'Times New Roman', Times, serif;
+}
+#p28{
+    font-family: serif;
+}
+#p29{
+    font-family: sans-serif;
+}
+#p30{
+    font-family: monospace;
+}
+#p31{
+    font-family: cursive;
+}
+#p32{
+    font-family: fantasy;
+}
+#p33{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+#p34{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
