@@ -1,0 +1,12 @@
+.i1{
+    float: none; /*default*/
+}
+.i2{
+    float:left;
+}
+.i3{
+    float: right;
+}
+.i4{
+    clear: both;
+}

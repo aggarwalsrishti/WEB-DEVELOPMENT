@@ -1,0 +1,28 @@
+.d1{
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    border: 2px solid;
+}
+.d2{
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+    overflow:scroll;
+    border: 2px solid;
+}
+.d3{
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+    overflow: auto; /*recommended*/
+    border: 2px solid;
+}
+.d4{
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+    overflow: visible; /*default*/
+    border: 2px solid;
+}
