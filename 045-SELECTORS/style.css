@@ -19,3 +19,14 @@ h1{
 h1, p{
     background-color:crimson;
 }
+div{
+    background-color: pink;
+}
+/*child selector*/
+div>p{
+    background-color: brown;
+}
+/*descendent selector*/
+div p{
+    color:blue;
+}
