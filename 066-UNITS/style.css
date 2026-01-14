@@ -1,0 +1,57 @@
+.box{
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+.cm{
+    width: 3cm;
+    height: 2cm;
+    background: lightblue;
+}
+.mm{
+    width: 30mm;
+    height: 20mm;
+    background: lightgreen;
+}
+.in{
+    width: 2in;
+    height: 1in;
+    background: lightcoral;
+}
+.pt{
+    width: 100pt;
+    height: 50pt;
+    background: gold;
+}
+.px{
+    width: 200px;
+    height: 100px;
+    background: violet;
+}
+.parent{
+    border: 2px solid black;
+    padding: 10px;
+    width: 50%;
+}
+.em{
+    font-size: 5em;
+    background: lightblue;
+}
+.rem{
+    font-size: 5rem;
+    background: lightgreen;
+}
+.percent{
+    width: 80%;
+    height:50px;
+    background: coral;
+}
+.vh{
+    height: 20vh;
+    background: gold;
+}
+.vw{
+    width: 50vw;
+    background: violet;
+    height: 50px;
+}

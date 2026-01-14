@@ -1,0 +1,25 @@
+/*defining variables*/
+:root{
+    --main-bg: lightblue;
+    --main-color: darkblue;
+    --padding: 15px;
+    --radius: 10px;
+}
+body{
+    background-color: var(--main-bg);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding:  var(--padding);
+}
+h1{
+    color: var(--main-color);
+    background: white;
+    padding: var(--padding);
+    border-radius: var(--radius);
+}
+p{
+    color: var(--main-color);
+}
+.v{
+    --main-color: teal;
+}

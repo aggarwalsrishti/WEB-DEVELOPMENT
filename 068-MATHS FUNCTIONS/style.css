@@ -1,0 +1,36 @@
+.container1{
+    width: 100%;
+    background: lightgray;
+    padding: 10px;
+}
+.calc-box{
+    width: calc(100% - 40px);
+    height: 100px;
+    background: lightblue;
+    border: 2px solid navy;
+}
+.container2{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.box{
+    height:120px;
+    padding: 10px;
+    color:white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+.min-box{
+    background-color: teal;
+    width: min(70%, 300px); 
+}
+.max-box{
+    background: crimson;
+    width: max(200px, 40%);
+}
+.text{
+    font-size: clamp(16px,2vw,32px);
+    color: darkblue;
+}
