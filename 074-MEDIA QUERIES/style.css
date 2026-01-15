@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.content{
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    color: teal;
+}
+p{
+    font-size: 18px;
+    color:#333;
+}
+/* When screen is 600px or smaller */
+@media screen and (max-width: 600px){
+    .content{
+        background-color: lightgreen;
+    }
+    p{
+        font-size: 14px;
+        color: darkred;
+    }
+    h1{
+        font-size: 20px;
+        color: darkblue;
+    }
+}
