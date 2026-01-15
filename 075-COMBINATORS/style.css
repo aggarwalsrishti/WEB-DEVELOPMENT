@@ -1,0 +1,20 @@
+.d1 p{
+    color: white;
+    background-color: teal;
+    padding: 5px;
+}
+.d2 > p {
+      color: white;
+      background-color: purple;
+      padding: 5px;
+}
+.d3 div + p {
+      color: white;
+      background-color: darkorange;
+      padding: 5px;
+    }
+.d4 div ~ p {
+      color: white;
+      background-color: seagreen;
+      padding: 5px;
+    }

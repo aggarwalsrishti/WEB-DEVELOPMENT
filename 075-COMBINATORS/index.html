@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMBINATORS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Descendant Selector Example</h2>
+  <div class="d1">
+    <p>Paragraph 1 inside div</p>
+    <p>Paragraph 2 inside div</p>
+    <section>
+      <p>Paragraph 3 nested inside section (still inside div)</p>
+    </section>
+    <p>Paragraph 4 inside div</p>
+  </div>
+  <p>Paragraph outside div</p>
+  <h2>Child Selector Example</h2>
+  <div class="d2">
+    <p>Paragraph 1 inside div (direct child)</p>
+    <p>Paragraph 2 inside div (direct child)</p>
+    <section>
+      <p>Paragraph 3 nested inside section (NOT direct child)</p>
+    </section>
+    <p>Paragraph 4 inside div (direct child)</p>
+  </div>
+  <h2>Adjacent Sibling Selector Example</h2>
+  <div class="d3">
+  <div>
+    <p>Paragraph inside div</p>
+  </div>
+  <p>Paragraph immediately after div (selected)</p>
+  <p>Another paragraph (NOT selected)</p>
+</div>
+  <h2>General Sibling Selector Example</h2>
+  <div class="d4">
+  <div>
+    <p>Paragraph inside div</p>
+  </div>
+  <p>Paragraph after div (selected)</p>
+  <p>Another paragraph after div (also selected)</p>
+  <p>Yet another paragraph after div (also selected)</p>
+    </div>
+</body>
+</html>

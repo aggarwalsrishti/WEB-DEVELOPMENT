@@ -1,0 +1,27 @@
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+a:active{
+    color:green;
+}
+p:first-child{
+    color:green;
+    font-weight: bold;
+}
+p:last-child{
+    color:blue;
+}
+p:nth-child(3){
+    color: red;
+}
+p:not(.p1){
+    color: aquamarine;
+}
