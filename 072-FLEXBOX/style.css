@@ -1,0 +1,87 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+}
+.flex-container div{
+    background: teal;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+}
+.flex-container-2{
+    display: flex;
+    flex-wrap: wrap;
+    background: yellowgreen;
+}
+.flex-container-2 div{
+    width:200px;
+    margin:10px;
+    background: tomato;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.flex-container-3{
+    display: flex;
+    justify-content: space-around;
+    background: lightblue;
+}
+.flex-container-3 div{
+    padding: 20px;
+    background: purple;
+    color: white;
+}
+.flex-container-4{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background-color: peachpuff;
+}
+.flex-container-4 div{
+    background: teal;
+    color: white;
+    padding: 15px;
+    margin: 5px
+}
+.flex-container-5{
+    display: flex;
+    background: lightgray;
+}
+.flex-container-5 div{
+    background: teal;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+}
+.item1{order:3;}
+.item2{order:1;}
+.item3{order:2;}
+.flex-container-6{
+    display: flex;
+    background: beige;
+}
+.flex-container-6 div{
+    padding: 20px;
+    margin: 5px;
+    background: steelblue;
+    color: white;
+}
+.item01{flex-grow: 1;}
+.item02{flex-grow: 3;}
+.item03{flex-grow: 1;}
+.flex-container-7{
+    display: flex;
+    height: 200px;
+    background: lavender;
+    align-items: center;
+}
+.flex-container-7 div{
+    background: orange;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+}
+.item002{
+    align-self: flex-end;
+}

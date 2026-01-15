@@ -1,0 +1,27 @@
+.inline{
+    display: inline;
+    background-color: lightblue;
+    padding: 5px;
+}
+.block{
+    display: block;
+    background-color: lightgreen;
+    width: 200px;
+    height: 50px;
+    margin: 10px 0;
+}
+.inline-block{
+    display: inline-block;
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+.hidden{
+    display: none;
+}
+.invisible{
+    visibility: hidden;
+}
