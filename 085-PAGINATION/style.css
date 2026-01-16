@@ -1,0 +1,27 @@
+/*Container*/
+.pagination{
+    display: inline-block;
+    margin: 20px 0;
+}
+/*PAGINATION LINKS*/
+.pagination a{
+    color: black;
+    float: left;
+    padding: 10px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    font-size: 18px;
+}
+/*ACTIVE PAGE*/
+.pagination a.active{
+    background-color: #6c5ce7;
+    color: white;
+    border: 1px solid #6c5ce7;
+}
+/*HOVER EFFECT(NOT ON ACTIVE)*/
+.pagination a:hover:not(.active){
+    background-color: #333;
+    color: white;
+}

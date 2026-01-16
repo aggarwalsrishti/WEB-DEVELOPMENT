@@ -1,0 +1,19 @@
+.d1{
+    color: darkblue;   /*Parent property*/
+    border: 2px solid black;
+    padding: 10px;
+}
+p{
+    color: inherit; /*inherit text color from parent*/
+    font-size: 18px;
+}
+.d2{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 2px solid gray;
+    padding: 10px;
+}
+span{
+    all: inherit; /*inherit everything from parent*/
+}
