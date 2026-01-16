@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f7f7;
+    padding: 30px;
+    text-align: center;
+}
+.box1{
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    font-size: 18px;
+    border: 20px solid transparent;   /*border width is required*/
+    border-image: url('image.png')30 round;
+}
+.box{
+    width:280px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 20px solid transparent;
+    border-image-source:url('image.png');
+    border-image-repeat: round;
+}
+.box2{
+    border-image-slice: 50;
+}
