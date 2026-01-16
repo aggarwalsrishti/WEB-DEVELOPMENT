@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.basic{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    margin: 50px auto;
+    border: 2px solid navy;
+    transition: all 2s;
+}
+.basic:hover{
+    width: 300px;
+    height: 300px;
+    background: coral;
+}
+.single{
+    height: 150px;
+    width: 150px;
+    margin: 50px auto;
+    background: lightgreen;
+    border: 2px solid darkgreen;
+    transition: width 3s;
+}
+.single:hover{
+    width: 300px;
+    background: tomato;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.box{
+    width: 80px;
+    height: 80px;
+    background: skyblue;
+    border: 2px solid navy;
+    transition: width 2s;
+}
+.linear:hover{
+    transition-timing-function: linear;
+    width: 200px;
+}
+.ease:hover{
+    transition-timing-function: ease;
+    width: 200px;
+}
+.ease-in:hover{
+    transition-timing-function: ease-in;
+    width: 200px;
+}
+.ease-out:hover{
+    transition-timing-function: ease-out;
+    width: 200px;
+}
+.ease-in-out:hover{
+    transition-timing-function: ease-in-out;
+    width: 200px;
+}
+.delay{
+    width: 150px;
+    height: 150px;
+    background: lightpink;
+    border: 2px solid crimson;
+    margin: 50px auto;
+    transition: width 2s ease-in-out 1s;
+}
+.delay:hover{
+    width: 300px;
+}

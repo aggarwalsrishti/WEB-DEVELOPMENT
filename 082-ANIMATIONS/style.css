@@ -1,0 +1,35 @@
+.basic{
+    width: 150px;
+    height: 150px;
+    background: red;
+    animation-name: colorChange;
+    animation-duration: 3s;
+}
+@keyframes colorChange {
+    from{background: red;}
+    to{background: blue;}
+}
+.loop{
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-name: moveBox;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes moveBox {
+    0%{transform: translateX(0px); background:red;}
+    50%{transform: translateX(200px);background: yellow;}
+    100%{transform: translateX(0px);background: green;}
+}
+.adv{
+    width: 120px;
+    height: 120px;
+    background: orange;
+    animation: spinScale 5s ease-in-out 1s infinite alternate both;
+}
+@keyframes spinScale {
+    0%{transform: rotate(0deg) scale(1);background: orange;}
+    50%{transform: rotate(180deg) scale(1.3);background: purple;}
+    100%{transform: rotate(360deg) scale(1);background: teal;}
+}
